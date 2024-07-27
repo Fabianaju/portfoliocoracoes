@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="shortcut icon" type="image/png" href="./images/letra-f.png">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="images/logo3.png" class="logo">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+        <div class="text-box">
+            <p>Eu sou</p>
+            <h1 class="animated-text">FABIANA</h1>
+            <h3>EU SOU WEBDESIGNER</h3>
+            <div class="row">
+                <a href="#portfolio" class="btn">Explore Meu Portfolio</a>
+                <a href="#contato" class="btn">Conecte comigo <span>&#x27F6;</span></a>
+                <span>Você pode explorar mais sobre meu portfólio e
+                   <br> experiência de vida aqui.</span>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href=""><img src="images/whatsapp.png"></a>
+            <a href=""><img src="images/pinterest.png"></a>
+            <a href=""><img src="images/instagram.png"></a>
+        </div>
+        <div id="hearts-container"></div> <!-- Container para os corações -->
+    </div>
+
+    <section id="sobre" class="sobre-section">
+        <div class="sobre-container">
+            <div class="sobre-image">
+                <img src="images/profile.jpg" alt="Sobre mim imagem">
+            </div>
+            <div class="sobre-text">
+                <h2 class="animated-heading">Sobre Mim</h2>
+                <p class="animated-paragraph">Olá! Eu sou Fabiana, uma web designer apaixonada por criar experiências digitais incríveis. Com uma vasta experiência em design gráfico e desenvolvimento web, estou comprometida em entregar soluções criativas e funcionais para meus clientes.</p>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio-section">
+    <h2>Meu Portfolio</h2>
+    <div class="portfolio-container">
+        <div class="portfolio-item">
+            <img src="images/project1.png" alt="Projeto 1">
+            <h3>Projeto 1</h3>
+            <p>Site para floricultura</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="images/project2.png" alt="Projeto 2">
+            <h3>Projeto 2</h3>
+            <p>Site para venda de produtos orgânicos</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="images/project3.png" alt="Projeto 3">
+            <h3>Projeto 3</h3>
+            <p>Site de venda de cupcakes</p>
+        </div>
+        <!-- Adicione mais itens de portfolio conforme necessário -->
+    </div>
+</section>
+
+    <section id="contato" class="contato-section">
+        <div class="contato-container">
+            <h2 class="animated-heading">Contato</h2>
+            <form class="contato-form">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="images/logo3.png" alt="Logo">
+            </div>
+            <div class="footer-social-icons">
+                <a href=""><img src="images/whatsapp.png"></a>
+                <a href=""><img src="images/pinterest.png"></a>
+                <a href=""><img src="images/instagram.png"></a>
+            </div>
+            <div class="footer-links">
+                <a href="#sobre">Sobre</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contato">Contato</a>
+            </div>
+            <p class="footer-text">© 2024 Fabiana. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
